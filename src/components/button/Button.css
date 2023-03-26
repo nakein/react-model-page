@@ -1,0 +1,16 @@
+.about-btn{
+    padding: 12px 26px;
+    font-size: 20px;
+    background-color: var(--primary);
+    color: black;
+    border: 1px solid black;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.about-btn:hover{
+    background: black;
+    color: #fff;
+    transition: all 0.3s ease-out;
+}
