@@ -5,7 +5,7 @@ import "./Hero.css";
 const Hero = () => {
   return (
     <div className="hero-container">
-      <video src={video} autoPlay loop muted />
+      <video src={video} autoPlay loop muted playsInline />
       <h1>JUSTINA GUERRERO</h1>
       <div className="hero-btns">
         <Link

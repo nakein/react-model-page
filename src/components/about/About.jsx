@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import Carousel from "../carousel/Carousel";
 import Button from "../button/Button";
-import fullbody from "../../assets/fullbody.JPG";
 import "./About.css";
 import "../../App.css";
 
@@ -13,7 +12,7 @@ const About = () => {
           <div className="col">
             <img
               className="img-fullbody"
-              src={fullbody}
+              src="https://ik.imagekit.io/wackwoszd/tr:w-800/fullbody.JPG"
               alt="Justina Guerrero"
             />
           </div>

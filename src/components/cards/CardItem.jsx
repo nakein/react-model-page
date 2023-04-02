@@ -15,7 +15,11 @@ const CardItem = (props) => {
             >
               <i className="bi bi-x"></i>
             </button>
-            <img src={props.src} alt="Model" className="cards__modal__image" />
+            <img
+              src={props.src}
+              alt="Justina Guerrero"
+              className="cards__modal__image"
+            />
           </div>
         </Modal>
       ) : null}
@@ -26,7 +30,13 @@ const CardItem = (props) => {
               onClick={() => setShowModal(true)}
               className="cards__item__label"
             >
-              <img className="cards__item__img" alt="Model" src={props.src} />
+              <img
+                className="cards__item__img"
+                alt="Justina Guerrero"
+                src={props.src}
+                //srcSet={` https://ik.imagekit.io/wackwoszd/tr:w-600/Image${props.index}.JPG 768w,
+                //https://ik.imagekit.io/wackwoszd/tr:w-1500/Image${props.index}.JPG 500w`}
+              />
             </button>
           </figure>
         </div>

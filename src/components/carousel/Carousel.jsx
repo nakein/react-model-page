@@ -1,16 +1,13 @@
 import { useState, useEffect } from "react";
-import Image1 from "../../assets/Image1.JPG";
-import Image2 from "../../assets/Image2.JPG";
-import Image3 from "../../assets/Image3.JPG";
 import "./Carousel.css";
 
 const Carousel = () => {
   const [index, setIndex] = useState(0);
 
   const cards = [
-    { id: "1", image: Image1 },
-    { id: "2", image: Image2 },
-    { id: "3", image: Image3 },
+    { id: "1", image: "https://ik.imagekit.io/wackwoszd/tr:w-400/Image1.JPG" },
+    { id: "2", image: "https://ik.imagekit.io/wackwoszd/tr:w-400/Image2.JPG" },
+    { id: "3", image: "https://ik.imagekit.io/wackwoszd/tr:w-400/Image3.JPG" },
   ];
 
   const mod = (n, m) => {
