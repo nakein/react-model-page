@@ -44,7 +44,7 @@ const Carousel = () => {
           <img
             key={item.id}
             src={item.image}
-            alt="Model"
+            alt="Justina Guerrero"
             className={className}
           />
         );

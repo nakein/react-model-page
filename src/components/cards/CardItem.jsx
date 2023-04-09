@@ -30,13 +30,14 @@ const CardItem = (props) => {
               onClick={() => setShowModal(true)}
               className="cards__item__label"
             >
-              <img
-                className="cards__item__img"
-                alt="Justina Guerrero"
-                src={props.src}
-                //srcSet={` https://ik.imagekit.io/wackwoszd/tr:w-600/Image${props.index}.JPG 768w,
-                //https://ik.imagekit.io/wackwoszd/tr:w-1500/Image${props.index}.JPG 500w`}
-              />
+              <picture>
+                <source srcSet={`${props.src}.webp`} type="image/webp" />
+                <img
+                  className="cards__item__img"
+                  alt="Justina Guerrero"
+                  src={`${props.src}.JPG`}
+                />
+              </picture>
             </button>
           </figure>
         </div>
