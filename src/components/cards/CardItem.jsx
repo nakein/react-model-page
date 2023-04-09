@@ -31,11 +31,11 @@ const CardItem = (props) => {
               className="cards__item__label"
             >
               <picture>
-                <source srcSet={`${props.src}.webp`} type="image/webp" />
+                <source srcSet={props.src} type="image/webp" />
                 <img
                   className="cards__item__img"
                   alt="Justina Guerrero"
-                  src={`${props.src}.JPG`}
+                  src={props.srcMobile}
                 />
               </picture>
             </button>

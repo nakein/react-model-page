@@ -15,9 +15,9 @@ const Cards = () => {
           {galeryData.map((photo, index) => (
             <CardItem
               src={photo.image}
+              srcMobile={photo.imageSafari}
               label={photo.title}
               key={index}
-              index={index}
             />
           ))}
         </div>
