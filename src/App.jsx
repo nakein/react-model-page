@@ -13,7 +13,6 @@ const App = () => {
           <Routes>
             <Route path="/" exact element={<Home />} />
             <Route path="/gallery" element={<Gallery />} />
-            <Route path="*" element={<Gallery />} />
           </Routes>
         </ScrollToTop>
       </BrowserRouter>
