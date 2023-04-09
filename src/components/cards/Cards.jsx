@@ -13,12 +13,7 @@ const Cards = () => {
       <div className="cards__container">
         <div className="cards__wrapper">
           {galeryData.map((photo, index) => (
-            <CardItem
-              src={photo.image}
-              srcMobile={photo.imageSafari}
-              label={photo.title}
-              key={index}
-            />
+            <CardItem src={photo.image} label={photo.title} key={index} />
           ))}
         </div>
       </div>

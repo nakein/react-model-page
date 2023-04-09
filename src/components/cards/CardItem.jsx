@@ -30,14 +30,11 @@ const CardItem = (props) => {
               onClick={() => setShowModal(true)}
               className="cards__item__label"
             >
-              <picture>
-                <source srcSet={props.src} type="image/webp" />
-                <img
-                  className="cards__item__img"
-                  alt="Justina Guerrero"
-                  src={props.srcMobile}
-                />
-              </picture>
+              <img
+                className="cards__item__img"
+                alt="Justina Guerrero"
+                src={props.src}
+              />
             </button>
           </figure>
         </div>
